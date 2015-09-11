@@ -1,0 +1,110 @@
+ 
+
+/* -- Global -- */
+body { border:0; margin:0; padding:0; width: 100%; height: 100%;background-color:#FFF; font-family: Arial, Helvetica, sans-serif; font-size: 15px; color:#505050;line-height: 22px;}
+#wrapper { width:100%; margin:0 auto;text-align:left; background:#fff; height:900px; }
+h1, h2, h3, h4, h5, h6{ margin:0; padding:0; }
+h1 { font-size: 36px; color: #650360; font-weight: normal; margin: 0 0 8px 0; font-family:Helvetica Neue;}
+h2 {font-size:18px; color: #505050; font-weight:bold;padding-top:15px;}
+h3 {font-size:18px; color: #650360; font-weight:bold; padding-top:25px;}
+h4 { font-size:16px; color: #328fc2; font-weight: bold;font-family:Helvetica Neue;padding-top:25px;}
+h5 {font-size:15px; color: #328fc2; font-weight: bold;font-family:Helvetica Neue;}
+h6 {font-size:15px; color: #328fc2; font-weight: bold;font-family:Helvetica Neue;}
+.clear { clear:both; }
+
+
+
+
+/* -- Main Layout -- */
+#header, #footer {clear: both; z-index: 25; }
+#header {width: 100%;background:#328fc2 repeat-y; height:45px;z-index:99;}
+
+
+.navigation { width:940px; height:44px;position:absolute;margin-left:400px;; margin-top:15px; text-decoration:none;}
+.navigation li{ position:relative; float:left;}
+.navigation li a:link, .navigation li a:visited { color: #fff; font-size:19pix; text-decoration: none;}
+.navigation li a:hover { background:url('../images/hove.png') no-repeat; text-decoration:none; }
+.logo{ margin-left:90px;position:relative; float:left;}
+
+ul#mainnav {font-size:15px; width: 940px; height: 44px; list-style: none; z-index:99;text-decoration: none;position:relative; float:left; margin-left:200px;}
+ul#mainnav li { margin-left: 0; padding-left:25px; list-style: none; display: inline; text-decoration: none;}
+
+
+
+/* -- leftcolum Area -- */
+#maincontent { width:1300px; height:1000px; margin-top: 0px; margin-left:auto;margin-right:auto;}
+.containerhome {width:940px; float:left; margin-left:180px;}
+.leftcolum { width:700px; height:900px; margin-top:50px;}
+.newscontent li{margin-left:15px;}
+.mobile { height:150px; padding-left:20px; padding-right:20px; margin-top:30px; background:#bbd8c4;}
+.mobileimage{ margin-top:-280px;float:right; margin-right:40px;}
+
+/* -- Rate Area -- */
+.rate{
+	        width:700px; 
+	        margin-top:20px;
+}
+.rate table{ 
+            background-color:#eef5f0;
+            border: none;
+		    color:#505050;
+		    font:16px Helvetica;
+			text-align:left;
+		    width:700px;
+}
+						
+	
+						
+.rate table caption{
+	         font-size:24px;
+		     border-bottom: 2px solid #fff;
+			 border-top: 2px solid #fff;
+			 padding-top:25px;
+			 padding-bottom:25px;
+}
+						  
+.rate tboday tr{
+	         height:45px;
+				   
+}
+.rate thead tr{
+	         height:45px;
+						  
+}
+.rate td, th{
+	         padding:5px;
+		     height:45px;
+						 
+}
+.rate tbody tr.even{
+	         background-color:#ddebe1;
+}
+						  
+							  
+
+/* -- rightcolum Area -- */
+
+.rightcolum { width:220px; height:500px; position:relative; float:right; margin-top:-900px;}
+.ad {width:220px; height:430px; margin-top:25px; }
+
+
+
+/* -- Footer -- */
+
+#footer {width:100%;background:#f5f5f5 repeat-y; height:55px;z-index:99; }
+.footernavi { padding-top:15px; text-align:center; float:right;text-decoration:none;  }
+ul#bottomnavin {width:500px; font-size:15px;  height: 44px; list-style: none; z-index:99;text-decoration: none;position:relative;margin-right:80px;}
+ul#bottomnavin li { margin-left:0; padding-left:25px; list-style: none; display: inline; text-decoration: none;}
+.footernavi li a:link, .navigation li a:visited { color: #fff; font-size:19pix; text-decoration: none;}
+.footernavi li a:hover { text-decoration:none; }
+.bottomfooter { width:450px; height:50px; margin-left:100px;margin-top:20px;}
+
+
+
+
+
+
+
+
+
+
